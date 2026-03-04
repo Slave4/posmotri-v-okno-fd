@@ -12,6 +12,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   margin: auto;
   padding: 133px 30px;
   color: #fff;
@@ -19,7 +20,6 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
-  min-height: 100vh;
 }
 
 h1,
@@ -73,16 +73,16 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 100%;
   row-gap: 16px;
+  height: 100%;
 }
 
 .content__details {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  align-self: stretch;
   row-gap: 26px;
+  align-self: stretch;
 
 }
 
@@ -239,8 +239,6 @@ ol {
   height: 19px;
   border: 1px solid #fff;
   padding: 1px;
-
-
 }
 
 .search-form__pseudo-checkbox::after {
